@@ -1,0 +1,61 @@
+.food-items{
+    position: relative;
+    padding: 20px;
+    width: 80%;
+    background-color: antiquewhite;
+    /* display: flex;
+    flex-wrap: wrap; */
+}
+
+.card-layout{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-title{
+    /* border: 1px solid black; */
+    cursor: pointer;
+    padding: 5px;
+    width: 150px;
+    min-height: 150px;
+    border-radius: 10px;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0 0 20px;
+}
+.card-title.outOfStock{
+    background-color: red;
+}
+
+.card-title p{
+    margin: 0;
+    color: white;
+    text-align: center;
+}
+
+
+.actions{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: translateY(100%);
+    height: 10vh;
+    /* padding: 5px; */
+    background-color: rgba(208, 199, 199, 0.842);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+}
+
+.action-buttons{
+    height: 60%;
+    width: 30%;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(214, 199, 42, 0.592);
+    font-size: clamp(1.2rem, 1.8vw, 1.8rem);
+}

@@ -1,0 +1,32 @@
+
+.search-bar{
+    height: 5vh;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-input{
+    height: 90%;
+    width: 40vw;
+    background-color: rgb(217, 215, 100);
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search-input input{
+    background-color: rgba(217, 215, 100);
+    display: inline-block;
+    width: 90%;
+    height: 95%;
+    border: none;
+}
+
+.search-input img{
+    margin: 0 10px 0 10px;
+    width: 15px;
+    height: 15px;
+}
